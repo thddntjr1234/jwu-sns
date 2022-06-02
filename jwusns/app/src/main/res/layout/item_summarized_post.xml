@@ -17,25 +17,25 @@
         android:paddingBottom="2dp">
 
         <TextView
-            android:id="@+id/tv_item_post_title"
+            android:id="@+id/item_post_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="1"
-            android:text="@string/tv_item_post_title"
+            android:text="@string/item_post_title"
             android:textColor="@color/colorBlack"
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/tv_item_post_content"
+            android:id="@+id/item_post_content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:ellipsize="end"
             android:maxLines="1"
-            android:text="@string/tv_item_post_content"
+            android:text="@string/item_post_content"
             android:textColor="@color/colorTextContentGrey"
-            android:textSize="12sp" />
+            android:textSize="13sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,10 +45,10 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/tv_item_post_time"
+                android:id="@+id/item_post_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/tv_item_post_time"
+                android:text="@string/item_post_time"
                 android:textColor="@color/colorDarkGrey"
                 android:textSize="11sp" />
 
@@ -61,11 +61,11 @@
                 android:background="@color/colorLightGrey" />
 
             <TextView
-                android:id="@+id/tv_item_post_nickname"
+                android:id="@+id/item_post_nickname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="3dp"
-                android:text="@string/tv_item_post_nickname"
+                android:text="@string/item_post_nickname"
                 android:textColor="@color/colorDarkGrey"
                 android:textSize="11sp" />
 
@@ -80,42 +80,42 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_width="13dp"
-                    android:layout_height="13dp"
-                    android:src="@drawable/red_thumb_up" />
+<!--                <ImageView-->
+<!--                    android:layout_width="13dp"-->
+<!--                    android:layout_height="13dp"-->
+<!--                    android:src="@drawable/red_thumb_up" />-->
 
-                <TextView
-                    android:id="@+id/tv_item_post_like_num"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    android:text="@string/tv_item_post_like_num"
-                    android:textColor="@color/colorEveryTimeRed"
-                    android:textSize="12sp" />
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_item_post_like_num"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="5dp"-->
+<!--                    android:text="@string/tv_item_post_like_num"-->
+<!--                    android:textColor="@color/colorEveryTimeRed"-->
+<!--                    android:textSize="12sp" />-->
             </LinearLayout>
 
-            <LinearLayout
-                android:gravity="center_vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginStart="7dp">
-                <ImageView
-                    android:layout_width="13dp"
-                    android:layout_height="13dp"
-                    android:src="@drawable/mint_comment" />
+<!--            <LinearLayout-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginStart="7dp">-->
+<!--                <ImageView-->
+<!--                    android:layout_width="13dp"-->
+<!--                    android:layout_height="13dp"-->
+<!--                    android:src="@drawable/mint_comment" />-->
 
-                <TextView
-                    android:id="@+id/tv_item_post_comment_num"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    android:text="@string/tv_item_post_comment_num"
-                    android:textColor="@color/colorMint"
-                    android:textSize="12sp" />
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_item_post_comment_num"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="5dp"-->
+<!--                    android:text="@string/tv_item_post_comment_num"-->
+<!--                    android:textColor="@color/colorMint"-->
+<!--                    android:textSize="12sp" />-->
 
-            </LinearLayout>
+<!--            </LinearLayout>-->
 
         </LinearLayout>
 
